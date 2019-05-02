@@ -1,1 +1,1 @@
-const mnemonologues = (string) => string.match(/[^\w]TOM|[^\w]MAX|^.|([^a-zA-Z][a-zA-Z])|[^\w']/g).join('')
+const mnemonologues = (string) => string.match(/^.|([^\w][\w])|[^\w]/g).join('')
