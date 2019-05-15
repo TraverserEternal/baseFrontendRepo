@@ -2,11 +2,13 @@ import React from 'react'
 import styles from './styles'
 import withStyles from 'react-jss'
 
-function App() {
-  return (
-    <div className="app">
-    </div>
-  );
+class App extends React.PureComponent {
+  render = () => {
+    return (
+      <React.Fragment>
+      </React.Fragment>
+    );
+  }
 }
 
 export default withStyles(styles)(App);
